@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Mono";
+}
+body {
+  background-color: #ddd;
+  
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 980px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  margin: 30px 0px;
+}
+.btn-init {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: #34ebdc;
+  border-radius: 5px;
+  margin: 30px 0px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  font-size: 1.25rem;
+}
+.quiz {
+  display: grid;
+  grid-row: 1fr 1fr 1fr;
+  width: 450px;
+  min-height: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.msg {
+  width: 100%;
+  display: block;
+  color: rgba(0, 0, 0, .4);
+  font-size: 1.25rem;
+  line-height: 400px;
+  text-align: center;
+}
